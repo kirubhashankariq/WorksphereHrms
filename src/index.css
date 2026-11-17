@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  
+  --color-brand-25: #FAFAFF;
+  --color-brand-50: #F4F3FF;
+  --color-brand-100: #EBE9FE;
+  --color-brand-200: #D9D6FE;
+  --color-brand-300: #BDB4FE;
+  --color-brand-400: #9B8AFB;
+  --color-brand-500: #7A5AF8;
+  --color-brand-600: #6938EF;
+  --color-brand-700: #5925DC;
+  
+  --color-workmate-bg: #FCFCFD;
+  --color-workmate-border: #EBECEE;
+  --color-workmate-heading: #252D3C;
+  --color-workmate-sub: #5D6676;
+  --color-workmate-darknav: #18181B;
+}
+
+/* Custom utility styles */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle mobile phone mockup frame styling */
+.phone-shadow {
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
